@@ -843,14 +843,22 @@ if (!isMobile()) {
         closePopupBtn.addEventListener('click', hidePopupForm);
         overlay.addEventListener('click', hidePopupForm);
 
+        var comebacker = true;
+
         window.addEventListener('mouseout', function(event) {
-            var comebacker = true;
             if (event.pageY - window.scrollY < 1 && comebacker) {
                 comebacker = false;
+                comeback();
                 showPopupForm();
                 return false;
             }
         });
+
+        function comeback() {
+            setTimeout(function() {
+                comebacker = true;
+            }, 10000);
+        }
         window.addEventListener("resize", displayOnMobile);
 
         var setCustomStyles = function() {
