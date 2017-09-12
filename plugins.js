@@ -2,7 +2,7 @@
 var DOMbody = document.body;
 var minDeviceWidth = 480;
 var params = {
-    lang: 'it',
+    lang: 'es',
     accentColor: '#64ca50',
     btnBackground: '#ff8300',
     btnTextColor: '#fff'
@@ -718,8 +718,8 @@ var popupText = {
         'title': '¿Te gusta ests proposición? ',
         'desc': 'Vamos a proporcionar información sobre los productos y las mejores condiciones, y vamos a presentar ofertas especiales!',
         'name': 'Su nombre',
-        'Phone ': 'Teléfono',
-        'Orden': 'Orden',
+        'phone': 'Teléfono',
+        'order': 'Orden',
         'desc2': 'El operador le llamará en 5-10 minutos.'
     }
 };
