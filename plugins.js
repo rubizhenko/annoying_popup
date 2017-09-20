@@ -715,10 +715,10 @@ var popupText = {
         'desc2': 'L\'operatore vi chiamerà entro 5 - 10 minuti.'
     },
     'es': {
-        'title': '¿Te gusta ests proposición? ',
-        'desc': 'Vamos a proporcionar información sobre los productos y las mejores condiciones, y vamos a presentar ofertas especiales!',
+        'title': '¿TE GUSTA ESTA PROPOSICIÓN?',
+        'desc': 'Le daremos la mayor información sobre los productos y las mejores condiciones, y le presentaremos las ofertas especiales!',
         'name': 'Su nombre',
-        'phone': 'Teléfono',
+        'phone': 'Su numero de telefono',
         'order': 'Orden',
         'desc2': 'El operador le llamará en 5-10 minutos.'
     }
